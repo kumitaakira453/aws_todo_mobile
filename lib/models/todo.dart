@@ -5,6 +5,7 @@ import 'package:freezed_annotation/freezed_annotation.dart';
 part 'todo.freezed.dart';
 part 'todo.g.dart';
 
+// 特別なJsonコンバータを追加する
 class DateTimeConverter implements JsonConverter<DateTime, String> {
   const DateTimeConverter();
 
